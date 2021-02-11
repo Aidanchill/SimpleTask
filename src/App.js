@@ -32,7 +32,7 @@ function App({ title, text }) {
     <div className="container">
       <h1>{title}</h1>
       <Header />
-      <Tasks tasks={tasks} onDelete={deleteTask}/>
+      {tasks.length > 0 ? (<Tasks tasks={tasks} onDelete={deleteTask}/>) : 'No Current Tasks'}
     </div>
   );
 }
