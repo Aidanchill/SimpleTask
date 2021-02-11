@@ -1,11 +1,12 @@
 import Header from './components/Header'
-import Button from './components/Button'
+import Tasks from './components/Tasks'
 
 function App({ title, text }) {
   return (
     <div className="container">
       <h1>{title}</h1>
       <Header />
+      <Tasks />
     </div>
   );
 }
