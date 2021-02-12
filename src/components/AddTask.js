@@ -8,8 +8,18 @@ const AddTask = ({ onAdd }) => {
     const onSubmit = (e) => {
         e.preventDefault()
 
+<<<<<<< HEAD
         if (!text || !day) {
             alert('Please add a task with a date')
+=======
+<<<<<<< HEAD
+        if (!text || !day) {
+            alert('Please add a task with a date')
+=======
+        if (!text) {
+            alert('Please add a task')
+>>>>>>> master
+>>>>>>> master
             return
         }
 
