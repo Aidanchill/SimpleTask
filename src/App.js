@@ -26,8 +26,8 @@ function App({ title, text }) {
 ])
 
 // Add task
-const addTask = () => {
-  console.log('Added')
+const addTask = (task) => {
+  console.log(task)
 }
 
 // Delete task
@@ -44,7 +44,7 @@ const addTask = () => {
     <div className="container">
       <h1>{title}</h1>
       <Header />
-      <AddTask />
+      <AddTask onAdd={addTask}/>
       {tasks.length > 0 ? (<Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder}/>) : 'No Current Tasks'}
     </div>
   );
