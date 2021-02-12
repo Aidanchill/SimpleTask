@@ -25,6 +25,11 @@ function App({ title, text }) {
     }
 ])
 
+// Add task
+const addTask = () => {
+  console.log('Added')
+}
+
 // Delete task
   const deleteTask = (id) => {
     setTasks(tasks.filter((task) => task.id !== id))
