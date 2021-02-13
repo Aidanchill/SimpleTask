@@ -1,5 +1,12 @@
 {
-  "tasks": [],
+  "tasks": [
+    {
+      "text": "asdf",
+      "day": "asdf",
+      "reminder": true,
+      "id": 1
+    }
+  ],
   "comments": [
     {
       "id": 1,
