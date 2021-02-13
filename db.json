@@ -3,7 +3,7 @@
     {
       "text": "asdf",
       "day": "asdf",
-      "reminder": true,
+      "reminder": false,
       "id": 1
     }
   ],
